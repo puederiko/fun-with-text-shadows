@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: url("../images/FA3.svg") no-repeat 50% 50%,
+                url("../images/FA2.svg") no-repeat 50% 50%,
+                url("../images/FA1.svg") no-repeat 50% 50%,
+                #000;
+    background-size: 50% 50%;
+    animation: sample 5s ease-in-out infinite 5s;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+@keyframes sample {
+    50% {
+        background-position: 0, 50% 50%, 100%;
+        background-color: #fff;
+    }
+
+    75% {
+        background-position: 50%, 50%50%, 50%;
+        background-color: #000;
+    }
+
+    100% {
+        background-position: 50% 50%, 50% 50%, 50% 50%;
+    }
+}
