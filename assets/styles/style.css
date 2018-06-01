@@ -1,36 +1,69 @@
 * {
     margin: 0;
+    text-align: center;
+    font-family: 'Baloo Da', cursive;
+    /* font-size: 10px; */
+    /* padding: 0; */
 }
 
-body {
+/* p {
+    line-height: 100vh;
+    text-align: center;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+} */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+#home,
+#up,
+#down {
+    display: block;
+    font-size: pa
+}
+
+p {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-    background: url("../images/FA3.svg") no-repeat 50% 50%,
-                url("../images/FA2.svg") no-repeat 50% 50%,
-                url("../images/FA1.svg") no-repeat 50% 50%,
-                #000;
-    background-size: 50% 50%;
-    animation: sample 5s ease-in-out infinite 5s;
+    line-height: 100vh;
+    font-size: 20vw;
 }
 
-.container {
-    height: 100vh;
-    width: 100vw;
+#one {
+    color: transparent;
+    background: #E74C3C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffb3ba, #ffdfba);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffb3ba, #ffdfba);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
 }
 
-@keyframes sample {
-    50% {
-        background-position: 0, 50% 50%, 100%;
-        background-color: #fff;
-    }
+#two {
+    background: #ffb3ba;
+    color: #ffb3ba;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5),
+        1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 
-    75% {
-        background-position: 50%, 50%50%, 50%;
-        background-color: #000;
-    }
-
-    100% {
-        background-position: 50% 50%, 50% 50%, 50% 50%;
-    }
+#three {
+    /* background: -webkit-linear-gradient(to bottom right, #85C1E9, #EBF5FB);
+    background: linear-gradient(to bottom right, #85C1E9, #EBF5FB); */
+    background: url("../images/atmosphere-background-bright-19670.jpg") no-repeat               center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0 0 10px rgba(255, 192, 203, 0.6), 0 0 30px rgba(255, 192, 203, 0.4), 0 0 50px rgba(255, 192, 203, 0.3), 0 0 100px rgba(255, 192, 203, 0.2);
 }
