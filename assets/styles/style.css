@@ -1,69 +1,95 @@
 * {
     margin: 0;
     text-align: center;
-    font-family: 'Baloo Da', cursive;
-    /* font-size: 10px; */
-    /* padding: 0; */
+    /* font-family: 'Sedgwick Ave', cursive; */
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 100px;
 }
 
-/* p {
-    line-height: 100vh;
-    text-align: center;
-    background-color: #565656;
-    color: transparent;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-} */
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-}
-
-#home,
-#up,
-#down {
-    display: block;
-    font-size: pa
+section {
+    height: 80vh;
+    width: 80vw;
+    margin: 10vh auto 20vh;
 }
 
 p {
-    height: 100vh;
-    width: 100vw;
-    line-height: 100vh;
-    font-size: 20vw;
+    height: inherit;
+    width: inherit;
+    line-height: 80vh;
 }
 
-#one {
+.one {
+    background: url("../images/watch.png") no-repeat center left;
+    background-size: cover;
+}
+
+#simple {
+    font-size: 15vw;
+    color: #cfb9ad;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.two {
+    background: url("../images/pastel.png") no-repeat left;
+    background-size: cover;
+}
+
+#embossed {
+    font-size: 15vw;
+    color: #cdca5e;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #5d5c1d;
+}
+
+.three {
+    background: url("../images/purple.png") no-repeat center right;
+    background-size: cover;
+}
+
+#glowing {
+    font-size: 15vw;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px red, 0 0 25px blueviolet;
+}
+
+.four {
+    background: url("../images/blue.png") no-repeat center;
+    background-size: cover;
+}
+
+#cloudy {
+    font-size: 15vw;
     color: transparent;
-    background: #E74C3C;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ffb3ba, #ffdfba);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ffb3ba, #ffdfba);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.5);
-    background-clip: text;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.five {
+    background: url("../images/color-pencil.png") no-repeat center;
+    background-size: cover;
+}
+
+#pressed {
+    font-size: 15vw;
+    background: #ccc6cc;
+    color: transparent;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
     -webkit-background-clip: text;
     -moz-background-clip: text;
+    background-clip: text;
 }
 
-#two {
-    background: #ffb3ba;
-    color: #ffb3ba;
-    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5),
-        1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-#three {
-    /* background: -webkit-linear-gradient(to bottom right, #85C1E9, #EBF5FB);
-    background: linear-gradient(to bottom right, #85C1E9, #EBF5FB); */
-    background: url("../images/atmosphere-background-bright-19670.jpg") no-repeat               center;
+.six {
+    background: url("../images/lightblue.png") no-repeat center;
     background-size: cover;
-    color: rgba(255, 255, 255, 0);
-    text-shadow: 0 0 10px rgba(255, 192, 203, 0.6), 0 0 30px rgba(255, 192, 203, 0.4), 0 0 50px rgba(255, 192, 203, 0.3), 0 0 100px rgba(255, 192, 203, 0.2);
+}
+
+#hard-shadow {
+    font-size: 10vw;
+    color: #6695ac;
+    text-shadow: 10px 10px 0 #142026;
+}
+
+@media (max-width: 480px) {
+    #hard-shadow {
+        text-shadow: 4px 4px 0 #142026;
+    }
 }
