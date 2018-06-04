@@ -1,6 +1,6 @@
 # Fun With Text-shadows
 
-Here is my take on cool effects on texts using `text-shadow` property.
+Here is my take on creating text effects using the `text-shadow` property.
 
 1. Simple Letterpress
 
@@ -28,7 +28,7 @@ Here is my take on cool effects on texts using `text-shadow` property.
 
 1. Blured Effect
 
-![Blured Text](assets/images/cloudy.jpg)
+![Blured Text](assets/images/blured.jpg)
 
 ```css
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.3);
@@ -36,7 +36,7 @@ Here is my take on cool effects on texts using `text-shadow` property.
 
 1. Pressed Effect
 
-![Pressed Text](assets/images/cloudy.jpg)
+![Pressed Text](assets/images/pressed.jpg)
 
 ```css
     text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
@@ -48,7 +48,7 @@ Here is my take on cool effects on texts using `text-shadow` property.
     background-clip: text;
 ```
 
-**Note**: `text-shadow` alone won't be able to accomplish this effect. You need to set the font `color` to `transparent`, the `background` to a darker shade if not the same as the parent's background color or image, and use `background-clip: text;` to make the *pressed* finish.
+**Note**: `text-shadow` alone won't be able to accomplish this effect. You need to set the font `color` to `transparent`, the `background` to a darker shade if not the same as the parent's background color or image, and use `background-clip: text;` to create the *pressed* finish.
 
 1. Classic Hard Shadow
 
@@ -57,3 +57,7 @@ Here is my take on cool effects on texts using `text-shadow` property.
 ```css
     text-shadow: 10px 10px 0 #6695ac;
 ```
+
+This collection doesn't limit what the `text-shadow` property can do. All it takes is creativity.
+
+Some inspirations I got are from [here](https://mayvendev.com/blog/inner-shadows-in-css-images-text-and-beyond) and [here](https://www.midwinter-dg.com/blog_demos/css-text-shadows/).
