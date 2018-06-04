@@ -40,19 +40,21 @@ p {
     font-size: 15vw;
     line-height: 100vh;
     color: #fff;
-    text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000, 0 10px 0 #000,  -10px -10px 10px #000;
-    animation: shadow 3s ease-in 1s 1 normal forwards;
-    -moz-animation: shadow 3s ease-in 1s 1 normal forwards;
-    -o-animation: shadow 3s ease-in 1s 1 normal forwards;
-    -webkit-animation: shadow 3s ease-in 1s 1 normal forwards;
+    text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000, 0 10px 0 #000,  20px -20px 10px #000;
+    animation: shadow 3s cubic-bezier(0.01, 0.01, 0.58, 1) 1s 1 normal forwards;
+    -moz-animation: shadow 3s cubic-bezier(0.01, 0.01, 0.58, 1) 1s 1 normal forwards;
+    -o-animation: shadow 3s cubic-bezier(0.01, 0.01, 0.58, 1) 1s 1 normal forwards;
+    -webkit-animation: shadow 3s cubic-bezier(0.01, 0.01, 0.58, 1) 1s 1 normal forwards;
+    background: url("../images/black.jpg") no-repeat center;
+    background-size: cover;
 }
 
 @keyframes shadow {
     0% {
-        text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000, 0 10px 0 #000, -10px -10px 10px #000;
+        text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000, 0 10px 0 #000, 20px -20px 10px #000;
     }
     100% {
-        text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000, 0 10px 0 #000, 10px 10px 10px #000;
+        text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000, 0 10px 0 #000, -20px 20px 10px #000;
     }
 }
 
