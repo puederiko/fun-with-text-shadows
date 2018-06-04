@@ -1,6 +1,6 @@
 # Fun With Text-shadows
 
-Here is my take on creating text effects using the `text-shadow` property.
+Here is my take on text effects using the `text-shadow` property.
 
 1. Simple Letterpress
 
