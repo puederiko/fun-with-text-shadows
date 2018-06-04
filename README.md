@@ -28,7 +28,7 @@ Here is my take on creating text effects using the `text-shadow` property.
 
 4. Blurred Effect
 
-![Blurred Text](asset/images/blurred.jpg)
+![Blurred Text](assets/images/blurred.jpg)
 
 ```css
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.3);
