@@ -33,13 +33,13 @@ box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .watch {
-    background: url("../images/watch.png") no-repeat center left;
+    background: url("../images/watch.jpg") no-repeat center left;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .one {
-    background: url("../images/watch.png") no-repeat center left;
+    background: url("../images/watch.jpg") no-repeat center left;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(5px);
@@ -52,13 +52,13 @@ box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .pastel {
-    background: url("../images/pastel.png") no-repeat center left;
+    background: url("../images/pastel.jpg") no-repeat center left;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .two {
-    background: url("../images/pastel.png") no-repeat center left;
+    background: url("../images/pastel.jpg") no-repeat center left;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(5px);
@@ -71,13 +71,13 @@ box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .purple {
-    background: url("../images/purple.png") no-repeat center right;
+    background: url("../images/purple.jpg") no-repeat center right;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .three {
-    background: url("../images/purple.png") no-repeat center right;
+    background: url("../images/purple.jpg") no-repeat center right;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(5px);
@@ -90,13 +90,13 @@ box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .blue {
-    background: url("../images/blue.png") no-repeat center;
+    background: url("../images/blue.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .four {
-    background: url("../images/blue.png") no-repeat center;
+    background: url("../images/blue.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(5px);
@@ -109,13 +109,13 @@ box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .color-pencil {
-    background: url("../images/color-pencil.png") no-repeat center;
+    background: url("../images/color-pencil.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .five {
-    background: url("../images/color-pencil.png") no-repeat center;
+    background: url("../images/color-pencil.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(5px);
@@ -132,13 +132,13 @@ box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .lightblue {
-    background: url("../images/lightblue.png") no-repeat center left;
+    background: url("../images/lightblue.jpg") no-repeat center left;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .six {
-    background: url("../images/lightblue.png") no-repeat center left;
+    background: url("../images/lightblue.jpg") no-repeat center left;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(5px);
