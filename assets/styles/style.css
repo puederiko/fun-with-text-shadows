@@ -1,26 +1,48 @@
 * {
     margin: 0;
     text-align: center;
-    /* font-family: 'Sedgwick Ave', cursive; */
     font-family: 'Kaushan Script', cursive;
     font-weight: 100px;
 }
 
 section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+article {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
     height: 80vh;
     width: 80vw;
-    margin: 10vh auto 20vh;
 }
 
 p {
-    height: inherit;
-    width: inherit;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    height: 80vh;
+    width: 80vw;
     line-height: 80vh;
+    /* box-shadow: 1px 1px 1px 2px #000; */
+    -webkit-box-shadow: 0 0 15px 00 rgba(0,0,0,0.3);
+-moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+
+.watch {
+    background: url("../images/watch.png") no-repeat center left;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .one {
     background: url("../images/watch.png") no-repeat center left;
     background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
 }
 
 #simple {
@@ -29,9 +51,17 @@ p {
     text-shadow: 0 1px 1px #fff;
 }
 
-.two {
-    background: url("../images/pastel.png") no-repeat left;
+.pastel {
+    background: url("../images/pastel.png") no-repeat center left;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.two {
+    background: url("../images/pastel.png") no-repeat center left;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
 }
 
 #embossed {
@@ -40,9 +70,17 @@ p {
     text-shadow: -1px -1px 1px #fff, 1px 1px 1px #5d5c1d;
 }
 
+.purple {
+    background: url("../images/purple.png") no-repeat center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .three {
     background: url("../images/purple.png") no-repeat center right;
     background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
 }
 
 #glowing {
@@ -51,9 +89,17 @@ p {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px red, 0 0 25px blueviolet;
 }
 
+.blue {
+    background: url("../images/blue.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .four {
     background: url("../images/blue.png") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
 }
 
 #cloudy {
@@ -62,9 +108,17 @@ p {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
+.color-pencil {
+    background: url("../images/color-pencil.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .five {
     background: url("../images/color-pencil.png") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
 }
 
 #pressed {
@@ -77,19 +131,27 @@ p {
     background-clip: text;
 }
 
-.six {
-    background: url("../images/lightblue.png") no-repeat center;
+.lightblue {
+    background: url("../images/lightblue.png") no-repeat center left;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.six {
+    background: url("../images/lightblue.png") no-repeat center left;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
 }
 
 #hard-shadow {
     font-size: 10vw;
-    color: #6695ac;
-    text-shadow: 10px 10px 0 #142026;
+    color: #fff;
+    text-shadow: 10px 10px 0 #6695ac;
 }
 
 @media (max-width: 480px) {
     #hard-shadow {
-        text-shadow: 4px 4px 0 #142026;
+        text-shadow: 4px 4px 0 #6695ac;
     }
 }
