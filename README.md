@@ -57,4 +57,3 @@ Here is my take on cool effects on texts using `text-shadow` property.
 ```css
     text-shadow: 10px 10px 0 #6695ac;
 ```
-
