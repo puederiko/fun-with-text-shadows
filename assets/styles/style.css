@@ -10,7 +10,7 @@ section {
     width: 100vw;
 }
 
-article {
+h1 {
     position: absolute;
     top: 10vh;
     left: 10vw;
