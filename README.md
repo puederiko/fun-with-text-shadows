@@ -15,7 +15,7 @@ Here is my take on text effects using the `text-shadow` property.
 ![Embossed Text](assets/images/embossed.jpg)
 
 ```css
-    text-shadow: text-shadow: -1px -1px 1px #fff, 1px 1px 1px #5d5c1d;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #5d5c1d;
 ```
 
 3. Glowing Effect
